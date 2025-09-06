@@ -1,0 +1,465 @@
+/* TABLET */
+
+@media (max-width:768px) {
+
+
+
+    #NoMQ {
+        display: none;
+    }
+
+    #MQ {
+        display: block;
+    }
+
+    header {
+        margin: 0;
+        display: inline;
+
+    }
+
+    .Header-Geral {
+        gap: 0;
+        justify-content: space-between;
+        align-items: start;
+        /* border: 2px solid red; */
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #Menu-Hamburguer-MQ {
+        display: none;
+    }
+
+    .menu-navbar {
+        flex-direction: column;
+
+        display: none;
+        margin-top: 40px;
+        margin-left: -50px;
+        padding: 15px 20px;
+        text-align: right;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        position: absolute;
+        right: 0;
+    }
+
+
+
+
+
+    #Menu-Hamburguer-MQ:checked~.menu-navbar {
+        display: flex;
+    }
+
+    .dropdown-lingua {
+        display: none;
+    }
+
+    .MainText {
+        padding: 19px 24px;
+        justify-content: start;
+    }
+
+
+    .MainImg-container {
+        display: none;
+    }
+
+
+    .card1-Frame-3267-container {
+        flex-direction: column;
+
+    }
+
+    .Img-Frame-43861 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Secao-2-Title {
+        text-align: center;
+    }
+
+    .Secao-2-Title img {
+        display: none;
+    }
+
+    .Cards-services-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+    .Card1 {
+        width: auto;
+
+    }
+
+    #MQ .Frame-3254 {
+        flex-direction: column;
+
+    }
+
+    #MQ .Frame-3254-Team {
+        flex-direction: row;
+
+        margin-left: -80px;
+        z-index: 1;
+        /* border: 2px solid blue; */
+    }
+
+
+
+    .azb {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: -40px;
+        /* border: 2px solid red; */
+
+
+    }
+
+    .Section6-CalltoAction {
+        height: auto;
+        padding: 109px 0;
+    }
+
+    .Footer-Ui {
+        width: 100%;
+    }
+
+    .Items-coluna {
+        display: block;
+    }
+
+    .PIC {
+        /* border: 2px solid green; */
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Container-Email {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .Footer-icones {
+        flex-direction: column-reverse;
+        gap: 21px;
+    }
+
+    .Footer-icones #Logo-Footer {
+        margin-left: 0;
+        /* border: 2px solid red; */
+
+    }
+
+    .Terms-Privacy-Cookies {
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+/* CELULAR */
+
+
+@media (max-width:425px) {
+
+
+    header {
+        margin: 0;
+    }
+
+    .Header-Geral {
+        gap: 255px;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .dropdown-lingua {
+        display: none;
+    }
+
+
+    .MainText {
+        padding: 19px 24px;
+        display: flex;
+    }
+
+    .Main-Title {
+        gap: 28px;
+    }
+
+    .Main-Title h3 {
+        font-size: 12px;
+        line-height: 14px;
+
+    }
+
+    .Title-and-subtitle {
+        gap: 22px;
+    }
+
+
+    .Main-TitleButton a {
+        padding: 15px 29px;
+
+    }
+
+    .Title-and-subtitle #Title-Main-title {
+        font-size: 40px;
+        line-height: 48px;
+        font-weight: 400;
+    }
+
+    .Title-and-subtitle #Subtitle-Main-title {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    #Title-and-subtitle-noMQ {
+        display: none;
+    }
+
+    #Title-and-subtitle-MQ {
+        display: flex;
+    }
+
+    .MainImg-container {
+        display: none;
+    }
+
+    .card1 {
+        padding: 34px 33px;
+        margin: 0;
+    }
+
+    .card1-Frame-3267-container {
+        flex-direction: column;
+    }
+
+    .Secao-2-Title {
+        gap: 13px;
+    }
+
+    .Secao-2-Title img {
+        display: none;
+    }
+
+    .Frame-2-Title {
+        gap: 13px;
+        width: auto;
+        height: auto;
+        padding: 27px 28px;
+        /* border: 2px solid red; */
+    }
+
+    .Frame-2-Title h3 {
+
+        font-size: 24px;
+        line-height: 44px;
+
+    }
+
+
+    .Cards-services-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .Card1 {
+        margin: 0;
+        gap: 25px;
+        width: auto;
+        height: auto;
+
+    }
+
+
+    .Frame-3254 {
+        flex-direction: column;
+
+    }
+
+    footer {
+        flex-direction: row;
+        padding: 42px 58px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .Footer-Ui {
+        width: 100%;
+        gap: 49px;
+
+    }
+
+    .Items-coluna {
+        display: block;
+    }
+
+    .PIC {
+        flex-direction: column;
+    }
+
+    .flex-Items-PI {}
+
+    .Items {
+        gap: 24px;
+        padding: 0;
+
+    }
+
+
+
+    #Email-Adress {
+        padding: 46px 0;
+        width: 100%;
+        background-color: transparent;
+    }
+
+
+    .Terms-Privacy-Cookies {
+        gap: 28px;
+        align-items: center;
+    }
+
+    .Footer-icones #Logo-Footer {
+        margin-left: 0;
+
+    }
+
+    .Footer-icones {
+        flex-direction: column-reverse;
+        gap: 21px;
+    }
+
+    .Frame-3267 {
+        margin: 0 50px;
+    }
+
+    .Frame-3267 h3 {
+        text-align: left;
+
+    }
+
+    .Secao-2-Services {
+        gap: 27px;
+        margin: 0 16px;
+
+    }
+
+
+
+    .Frame-2-Title {
+        gap: 13px;
+    }
+
+    .Secao-Frame-3255 {
+        gap: 16px;
+    }
+
+    .Frame-43870 {
+        float: right;
+    }
+
+
+
+    #NoMQ {
+        display: none;
+    }
+
+    #MQ {
+        display: block;
+    }
+
+
+
+    .Frame-3254-Team {
+        flex-direction: row;
+        margin-left: 0;
+        /* border: 2px solid green; */
+    }
+
+    .Frame-3254-Team h4 {
+        font-size: 17px;
+        line-height: 23px;
+
+    }
+
+    .azb {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: -40px;
+        /* border: 2px solid blue; */
+
+
+    }
+
+    .azb img {
+        width: 152px;
+        height: 152px;
+    }
+
+    #semM:first-child {
+        margin-left: 0;
+    }
+
+    #Margin-0 {
+        margin: 0;
+    }
+
+    .Secao-Frame-3255 h2 {
+        font-size: 26px;
+        line-height: 62px;
+    }
+
+    .Navbar-Button a {
+        padding: 15px 29px;
+        gap: 8px;
+        border-radius: 42px;
+    }
+
+    .Section6-CalltoAction {
+        width: 325px;
+        height: 537px;
+        padding: 109px 12px;
+    }
+
+    .Frame-3 {
+        gap: 42px;
+    }
+
+    .Frame-3 h2 {
+        font-size: 32px;
+        line-height: 48px;
+
+    }
+
+    .Img-Frame-43861 img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+}

@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    /* border: 2px solid pink; */
+}
+
+div {
+    /* border: 2px solid blue/ */
+}
+
+body {
+    margin: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Epilogue", sans-serif;
+    font-family: "Roboto Flex", sans-serif;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+header {
+    /* border: 2px solid red; */
+    margin: 25px 117px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Header-Geral {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 202px;
+    /* border: 2px solid rgb(0, 0, 0); */
+
+}
+
+.navbar {
+    /* border: 2px solid yellow; */
+    gap: 10px;
+    padding: 0 1;
+}
+
+.menu-navbar {
+    display: flex;
+    gap: 74px;
+}
+
+.menu-navbar a {
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    color: #3D3D3D;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.menu-navbar a:hover {
+    opacity: 0.5;
+    transform: scale(1.1) translateY(-5px);
+}
+
+
+
+#Menu-Home-Destaque {
+    color: #3056D3;
+    font-weight: 600;
+}
+
+.dropdown-lingua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    /* border: 2px solid red; */
+}
+
+.dropdown-lingua p {
+    font-family: "Epilogue", sans-serif;
+    font-size: 14px;
+    color: #424242;
+
+}
+
+.dropdown-lingua button {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    gap: 6px;
+    transition: all 0.5s;
+}
+
+.dropdown-lingua button:hover {
+    opacity: 0.5;
+}
+
+.dropdown-lingua a {
+    background-color: #3171DE;
+    border-radius: 50px;
+    padding: 18px 25px;
+    display: flex;
+    gap: 10px;
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.dropdown-lingua a:hover {
+    opacity: 0.5;
+}
+
+
+
+/* MediaQuery */
+
+
+label {
+    font-size: 30px;
+}
+
+/* Fim da Media Query */
+
+/* Seção Main Title */
+
+.MainText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 135px 60px;
+    /* border: 2px solid red; */
+}
+
+.Main-Title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Main-Title h3 {
+    font-family: "Roboto Flex", sans-serif;
+    color: #F3BC4C;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 10%;
+}
+
+.Title-and-subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    /* border: 2px solid black; */
+}
+
+.Title-and-subtitle #Title-Main-title {
+    font-family: "Epilogue", sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+.Title-and-subtitle #Subtitle-Main-title {
+    font-family: "Epilogue", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #525252;
+}
+
+#Title-and-subtitle-MQ {
+    display: none;
+}
+
+.Main-TitleButton {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.Main-TitleButton a {
+    background: #66B066;
+    padding: 18px 34px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    transition: all 0.5s;
+}
+
+.Main-TitleButton a:hover {
+    opacity: 0.5;
+    transform: scale(1.1) translateY(-10px);
+
+}
+
+.MainImg-container img {
+    width: 500px;
+    height: 500px;
+}
+
+/* Seção Frame 3267 */
+
+.Frame-3267 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+
+}
+
+.Frame-3267 h3 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #3D3D3D;
+    text-align: center;
+    margin-top: 72px;
+    /* border: 3px solid black; */
+
+}
+
+#Linear-Frame-3267 {
+    background-image: linear-gradient(to bottom, #3171DE, #704AF2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.card1 {
+    padding: 33px 66px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 35px;
+    box-shadow: 0 5px 14px 0px rgb(0, 0, 0, 13%);
+    margin: 72px 48px;
+    /* border: 2px solid black; */
+}
+
+.card1-Frame-3267 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 53px;
+}
+
+.card1-Frame-3267-container {
+    display: flex;
+    gap: 105px;
+    justify-content: center;
+}
+
+.Card-Frame-43901 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 329px;
+    height: 205px;
+}
+
+.Card-Frame-43901 img {
+    width: 50px;
+    height: 50px;
+}
+
+.Frame-2-Card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Frame-2-Card h4 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+    /* color: #3D3D3D; */
+}
+
+.Frame-2-Card p {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #525252;
+}
+
+/* Seção 2 Services */
+
+.Secao-2-Services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 79px;
+}
+
+.Secao-2-Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 123px;
+    /* border: 3px solid pink; */
+
+}
+
+.Secao-2-Title img {
+    /* border: 2px solid red; */
+    width: 91px;
+    height: 81px;
+}
+
+.Frame-2-Title {
+    display: flex;
+    gap: 18px;
+    width: 841px;
+    height: 120px;
+    /* border: 3px solid black; */
+}
+
+.Frame-2-Title h3 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+.Secao-2-Cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 123px;
+    /* border: 2px solid green; */
+}
+
+
+.Cards-services-1 {
+    display: flex;
+    gap: 52px;
+}
+
+.Card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    padding: 27px 28px;
+    border-radius: 35px;
+    box-shadow: 0 5px 14px 0px rgb(0, 0, 0, 13%);
+    width: 385px;
+    height: 310px;
+    /* border: 2px solid yellow; */
+}
+
+#Card-1-Gap-35 {
+    gap: 35px;
+}
+
+
+
+.Card1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.Frame-2-Cards {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    /* border: 2px solid green; */
+}
+
+.Frame-2-Cards a {
+    text-decoration: underline;
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #525252;
+    transition: all 0.5s;
+}
+
+.Frame-2-Cards a:hover {
+    opacity: 0.5;
+}
+
+.Frame-2-Cards h3 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+.Frame-2-Cards p {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #525252;
+}
+
+/* Seção Frame 3255 */
+
+.Secao-Frame-3255 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+}
+
+.Frame-43870 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1 0;
+    /* border: 10px solid yellow; */
+}
+
+.Frame-3254 {
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.Frame-3254-Team:first-child {
+    margin-left: 0;
+}
+
+
+.Frame-3254-Team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    width: auto;
+    margin-left: -80px;
+    z-index: 1;
+    /* border: 2px solid green; */
+}
+
+.Frame-3254-Team img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.Frame-3254-Team h4 {
+    text-align: center;
+    font-family: "Epilogue", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+
+}
+
+#MQ {
+    display: none;
+}
+
+#NoMQ {
+    display: block;
+}
+
+
+
+.Secao-Frame-3255 h2 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 40px;
+    line-height: 62px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+
+}
+
+.Navbar-Button a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #3171DE;
+    padding: 18px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    font-size: 16px;
+}
+
+.Navbar-Button a:hover {
+    opacity: 0.5;
+    transform: scale(1.1) translateY(-5px);
+}
+
+/* Seção 43871 */
+
+.Secao-43871 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 38px 48px;
+    margin: 166px 0;
+}
+
+.Section6-CalltoAction {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    height: 632px;
+    padding: 109px 221px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 35px;
+    background-image: linear-gradient(to bottom, #3171DE, #4AC0F2);
+}
+
+.Frame-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 33px;
+}
+
+.Frame-3 h2 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 600;
+    color: white;
+}
+
+.NavBar-Button-Secao-43871 {
+    display: flex;
+    justify-content: center;
+}
+
+.NavBar-Button-Secao-43871 a {
+    display: flex;
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 10px;
+    padding: 18px 25px;
+    border-radius: 50px;
+    background: white;
+    text-decoration: none;
+    color: #5E5DEF;
+    transition: all 0.5s;
+}
+
+.NavBar-Button-Secao-43871 a:hover {
+    opacity: 0.5;
+    transform: scale(1.1) translateY(-10px);
+}
+
+/* Seção Frame 43861 */
+
+
+
+.Img-Frame-43861 {
+    text-align: center;
+    box-shadow: 0 4 20 #000000;
+
+}
+
+.Img-Frame-43861 img {
+    width: 770px;
+    height: 409px;
+}
+
+
+
+footer {
+    display: flex;
+    margin-top: 102px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 2px solid blue; */
+
+}
+
+.Footer-Ui {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid greenyellow; */
+    width: 1174px;
+    margin: 0 auto  ;
+}
+
+.Items-coluna {
+    display: flex;
+}
+
+.PIC {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.flex-Items-PI {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Items {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 25%;
+    padding: 46px 31px;
+}
+
+.Items h4 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #0A142F;
+}
+
+
+.Items a {
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: auto;
+    font-weight: 400;
+    color: #0A142F;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.Items a:hover {
+    color: #2e5ee2;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.Items p {
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: auto;
+    font-weight: 400;
+    color: #0A142F;
+    opacity: 0.5;
+
+}
+
+#Email-Adress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 46px 31px;
+    border-radius: 30px;
+    background: rgb(32, 60, 134, 5%);
+    width: 369px;
+    height: 261px;
+    /* border: 2px solid red; */
+}
+
+
+.Subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    /* border: 2px solid green; */
+}
+
+.Subscribe h4 {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #0A142F;
+    padding: 0;
+    margin: 0;
+}
+
+.Subscribe input {
+    background: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 300px;
+    padding: 15px 35px;
+    border: 1px solid #2e5ee2;
+}
+
+.Button-Address {
+    z-index: 1;
+}
+
+.Subscribe input::placeholder {
+    font-family: "Epilogue", sans-serif;
+    font-size: 14px;
+    line-height: auto;
+    font-weight: 400;
+    color: #0A142F;
+    opacity: 0.6;
+}
+
+
+.Subscribe p {
+    font-family: "Epilogue", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #0A142F;
+}
+
+hr {
+    margin: 55px 0;
+}
+
+
+
+
+.Footer-icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+.Footer-icones #Logo-Footer {
+    margin-left: 31px;
+
+}
+
+.Terms-Privacy-Cookies {
+    display: flex;
+    gap: 44px;
+    /* border: 2px solid red; */
+}
+
+.Terms-Privacy-Cookies a {
+    text-decoration: none;
+    font-family: "Epilogue", sans-serif;
+    font-size: 14px;
+    line-height: auto;
+    font-weight: 400;
+    color: #0A142F;
+    transition: all 0.5s;
+}
+
+.Terms-Privacy-Cookies a:hover {
+    opacity: 0.5;
+}
+
+.Footer-icones #redes-sociais {
+    display: flex;
+    gap: 16px;
+    transition: all 0.5s;
+    /* border: 2px solid red; */
+}
+
+.Footer-icones #redes-sociais a:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
